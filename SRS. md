@@ -19,7 +19,7 @@
 | UAV-REQ-008 | Event-Driven | When the battery reaches the low-energy threshold, the UAV shall generate a low-battery warning. |
 | UAV-REQ-009 | State-Driven | While operating in autonomous mode, the UAV shall execute the approved mission plan. |
 | UAV-REQ-010 | State-Driven | While operating in autonomous mode, the UAV shall continuously monitor navigation-data validity. |
-| UAV-REQ-011 | State-Driven | While operating in failsafe mode, the UAV shall prevent unauthorized mission |
+| UAV-REQ-011 | State-Driven | While operating in failsafe mode, the UAV ...shall prevent unauthorized mission commands. |
 | UAV-REQ-012 | State-Driven | While the UAV is in flight, the power-management system shall monitor electrical power status. |
 | UAV-REQ-013 | Unwanted Behavior | If primary navigation data becomes invalid, the UAV shall transition to the configured backup or safe-navigation mode. |
 | UAV-REQ-014 | Unwanted Behavior | If a critical flight-control fault is detected, the UAV shall transition to the predefined safe state. |
