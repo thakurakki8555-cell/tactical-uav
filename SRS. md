@@ -1,0 +1,26 @@
+# System Requirements Specification (SRS)
+
+**Project:** Tactical UAV
+**Module:** Systems Requirements & Configuration Engineering
+**Prepared by:** Kanika Thakur
+**Date:** 06 October 2026
+
+## 15 UAV Requirements
+
+| ID | EARS Type | Requirement |
+|----|-----------|-------------|
+| UAV-REQ-001 | Ubiquitous | The UAV shall continuously monitor its flight-control health status during operation. |
+| UAV-REQ-002 | Ubiquitous | The UAV shall provide position, altitude, velocity, battery status and flight-mode information through telemetry. |
+| UAV-REQ-003 | Ubiquitous | The UAV shall store approved mission parameters in non-volatile memory. |
+| UAV-REQ-004 | Ubiquitous | The UAV shall continuously monitor battery voltage, current and remaining energy. |
+| UAV-REQ-005 | Event-Driven | When a mission is uploaded, the UAV shall validate the mission parameters before accepting it. |
+| UAV-REQ-006 | Event-Driven | When the UAV receives a valid navigation command, the flight-control system shall generate the required control response. |
+| UAV-REQ-007 | Event-Driven | When communication with the Ground Control Station is lost for more than 5 seconds, the UAV shall enter the configured failsafe mode. |
+| UAV-REQ-008 | Event-Driven | When the battery reaches the low-energy threshold, the UAV shall generate a low-battery warning. |
+| UAV-REQ-009 | State-Driven | While operating in autonomous mode, the UAV shall execute the approved mission plan. |
+| UAV-REQ-010 | State-Driven | While operating in autonomous mode, the UAV shall continuously monitor navigation-data validity. |
+| UAV-REQ-011 | State-Driven | While operating in failsafe mode, the UAV shall prevent unauthorized mission |
+| UAV-REQ-012 | State-Driven | While the UAV is in flight, the power-management system shall monitor electrical power status. |
+| UAV-REQ-013 | Unwanted Behavior | If primary navigation data becomes invalid, the UAV shall transition to the configured backup or safe-navigation mode. |
+| UAV-REQ-014 | Unwanted Behavior | If a critical flight-control fault is detected, the UAV shall transition to the predefined safe state. |
+| UAV-REQ-015 | Unwanted Behavior | If battery energy falls below the critical threshold, the UAV shall initiate the configured recovery procedure. |
