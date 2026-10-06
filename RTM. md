@@ -1,0 +1,19 @@
+# Tactical UAV - Requirements Traceability Matrix (RTM)
+
+| Requirement ID | Requirement | Subsystem | Functional Artifact | Test Case |
+|----------------|-------------|-----------|---------------------|-----------|
+| UAV-REQ-001 | Flight-control health monitoring | Flight-control | Health Monitoring Module | TC-001 |
+| UAV-REQ-002 | Telemetry information | Telemetry System | Telemetry Manager | TC-002 |
+| UAV-REQ-003 | Mission parameter storage | Mission Management | Mission Storage | TC-003 |
+| UAV-REQ-004 | Power Management | Power Management | Battery Monitor | TC-004 |
+| UAV-REQ-005 | Mission Management | Mission Management | Mission Validator | TC-005 |
+| UAV-REQ-006 | Process valid navigation commands | Flight Control | Command Processor | TC-006 |
+| UAV-REQ-007 | Enter failsafe when GCS communication is lost for more than 5 seconds | Communication/Failsafe | Failsafe Manager | TC-007 |
+| UAV-REQ-008 | Generate warning when battery reaches low-energy threshold | Power/Telemetry | Battery Warning | TC-008 |
+| UAV-REQ-009 | Execute approved mission plan in autonomous mode | Autonomy | Mission Executor | TC-009 |
+| UAV-REQ-010 | Monitor navigation-data validity in autonomous mode | Navigation | Navigation Monitor | TC-010 |
+| UAV-REQ-011 | Prevent unauthorized mission commands in failsafe mode | Failsafe | Failsafe Manager | TC-011 |
+| UAV-REQ-012 | Monitor electrical power status during flight | Power Management | Power Monitor | TC-012 |
+| UAV-REQ-013 | Transition to backup/safe navigation when primary navigation data is invalid | Navigation/Failsafe | Backup Navigation | TC-013 |
+| UAV-REQ-014 | Transition to safe state when critical flight-control fault is detected | Flight Control/Failsafe | Fault Handler | TC-014 |
+| UAV-REQ-015 | Initiate recovery procedure when battery reaches critical threshold | Recovery Manager | Recovery Manager | TC-015 |
